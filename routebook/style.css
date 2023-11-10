@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.navbar{
+    height:60px;
+    background-color: black;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    cursor:pointer;
+}
+.nav-logo{
+    height:50px;
+    width:100px;
+}
+.logo{
+    background-image: url("route.jpeg");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.border{
+    border: 2px solid transparent;
+}
+.nav-search {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav-feedback{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav-blog{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.nav-route{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+/**hero-section**/
+.hero-section{
+    background-image: url("clipart-map-road-trip-4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.write-section{
+    height: 150px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.write-section h4{
+    font-style: italic;
+    color: blueviolet;
+}
+.font-icon{
+    display:flex;
+    justify-content: space-between;
+}
+.hero-heading {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.hero-heading h2 {
+    color: blue;
+    margin-bottom: 170px;
+}
+
+.hero-searchbar {
+    text-align: center;
+    display: flex;
+    justify-content: center; /* Center horizontally within the parent */
+    align-items: center;     /* Center vertically within the parent */
+    height: 100vh;           /* Make sure it takes up the full viewport height */
+}
+
+.hero-search {
+    border: 7px solid black;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+.hero-search input[type="text"],
+.hero-search input[type="button"] {
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    outline: none;
+}
+
+.hero-search input[type="button"] {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
